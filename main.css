@@ -15,12 +15,15 @@ body {
     height: 75px;
 }
 
-ul {
+#bar {
     margin-top: 0;
 }
 
 .navItem {
     list-style: none;
+    display: inline;
+    margin-left: 400px;
+    margin-top: 50px;
 }
 
 main {
