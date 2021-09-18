@@ -1,12 +1,29 @@
 body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#top {
-    text-align: center;
 }
 
 #startText {
     text-align: center;
     width: 500px;
+    margin-left: 50px;
+}
+
+#startBar {
+    margin: 0;
+    background-color: gray;
+    height: 75px;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.navItem {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
 }
