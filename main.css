@@ -31,12 +31,6 @@ body {
   margin-left: 50px;
 }
 
-#startBar {
-  margin: 0;
-  background-color: gray;
-  height: 75px;
-}
-
 #img {
   margin-top: 100px;
 }
@@ -102,7 +96,6 @@ body {
 .menu-bar li:hover::before {
   background-color: var(--colorFont);
   transform: scale(1.2);
-  margin: 0px;
 }
 
 main {
