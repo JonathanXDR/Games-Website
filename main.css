@@ -1,41 +1,43 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 * {
-  font-family: helvetica;
+    font-family: helvetica;
 }
 
 body {
-  background: var(--colorBackground);
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--colorBackground);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
-  --colorBackground: #000000;
-  --colorContainer: #151516;
-  --colorTransparent: rgba(0, 0, 0, 0.4);
-  --colorMenuBackground: rgba(29, 29, 31, 0.72);
-  --colorMenuBorder: rgba(255, 255, 255, 0.24);
-  --colorScrollbarTrack: #0f0f0f;
-  --colorScrollbarTrackBorder: #1c1c1c;
-  --colorFont: #ffffff;
-  --colorBtn: #ffffff;
-  --colorBtnReverse: #1d1d1f;
+    --colorBackground: #000000;
+    --colorContainer: #151516;
+    --colorTransparent: rgba(0, 0, 0, 0.4);
+    --colorMenuBackground: rgba(29, 29, 31, 0.72);
+    --colorMenuBorder: rgba(255, 255, 255, 0.24);
+    --colorScrollbarTrack: #0f0f0f;
+    --colorScrollbarTrackBorder: #1c1c1c;
+    --colorFont: #ffffff;
+    --colorBtn: #ffffff;
+    --colorBtnReverse: #1d1d1f;
 }
 
 #startText {
-  text-align: center;
-  width: 500px;
-  margin-left: 50px;
+    text-align: center;
+    width: 500px;
+    margin-left: 50px;
 }
 
 #img {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
+
 /*Apple Menu Bar*/
+
 
 /* .ulContainer {
   background-color: blue;
@@ -48,57 +50,64 @@ body {
 } */
 
 .menu-bar {
-  width: 100%;
-  border-bottom: 1px solid var(--colorMenuBorder);
-  height: 52px;
-  position: fixed;
-  background-color: var(--colorMenuBackground);
-  backdrop-filter: blur(10px);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 25px;
-  margin: 0;
-  padding: 0;
+    width: 100%;
+    border-bottom: 1px solid var(--colorMenuBorder);
+    height: 52px;
+    position: fixed;
+    background-color: var(--colorMenuBackground);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
 }
 
 .menu-bar a {
-  color: var(--colorFont);
+    color: var(--colorFont);
 }
 
 .menu-bar li {
-  list-style: none;
-  font-family: sans-serif;
-  font-weight: bold;
-  padding: 14px 16px;
-  margin: 0 8px 0 20px;
-  position: relative;
-  cursor: pointer;
-  white-space: nowrap;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 14px 16px;
+    margin: 0 8px 0 20px;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 .menu-bar li::before {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  transition: 0.2s;
-  border-radius: 25px;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: 0.2s;
+    border-radius: 25px;
 }
 
-.menu-bar li:hover > a {
-  color: var(--colorBackground);
+.menu-bar li:hover>a {
+    color: var(--colorBackground);
 }
 
 .menu-bar li:hover::before {
-  background-color: var(--colorFont);
-  transform: scale(1.2);
+    background-color: var(--colorFont);
+    transform: scale(1.2);
 }
 
 main {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
+
+#fortnite {
+    color: white;
+    text-align: center;
+}
+
+.activ {}
