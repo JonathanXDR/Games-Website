@@ -50,6 +50,7 @@ body {
 } */
 
 .menu-bar {
+<<<<<<< HEAD
     width: 100%;
     border-bottom: 1px solid var(--colorMenuBorder);
     height: 52px;
@@ -62,6 +63,20 @@ body {
     gap: 25px;
     margin: 0;
     padding: 0;
+=======
+  width: 100%;
+  border-bottom: 1px solid var(--colorMenuBorder);
+  height: 55.5px;
+  position: fixed;
+  background-color: var(--colorMenuBackground);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+>>>>>>> a9809201302842254a1ffa2db9a520cb40ed9b92
 }
 
 .menu-bar a {
@@ -69,6 +84,7 @@ body {
 }
 
 .menu-bar li {
+<<<<<<< HEAD
     list-style: none;
     font-family: sans-serif;
     font-weight: bold;
@@ -77,6 +93,16 @@ body {
     position: relative;
     cursor: pointer;
     white-space: nowrap;
+=======
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 14px 16px;
+  margin: 0 0 0 25px;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+>>>>>>> a9809201302842254a1ffa2db9a520cb40ed9b92
 }
 
 .menu-bar li::before {
