@@ -37,10 +37,6 @@ body {
   height: 75px;
 }
 
-#bar {
-  margin-top: 0;
-}
-
 #img {
   margin-top: 100px;
 }
@@ -106,6 +102,7 @@ body {
 .menu-bar li:hover::before {
   background-color: var(--colorFont);
   transform: scale(1.2);
+  margin: 0px;
 }
 
 main {
