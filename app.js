@@ -1,13 +1,18 @@
-const app = new Vue({
-  el: "#app",
-  data: {
-    username: "CoderInTraining",
-    newTweet: "",
-    tweets: [
-      "Started learning to code today. Wish me luck!",
-      "Okay, I learned HTML, CSS, and JavaScript. But, how do I combine them together?? Send help.",
-      "Today I start learning Vue. I got this.",
-    ],
-    bio: "Excited future front-end  engineer.",
+const app = Vue.createApp({
+  methods: {
+    async getGame() {
+      const res = await fetch("https://de.wikipedia.org/wiki/Minecraft");
+      const { results } = await res.json();
+
+      // console.log(results)
+      this.image = results[0].image.large;
+      this.publisher = results[0].publisher;
+      this.release = results[0].release;
+      this.platform = results[0].platform;
+      this.language = results[0].language;
+      this.ageRating = results[0].ageRating;
+    },
   },
 });
+
+app.mount("#app");
