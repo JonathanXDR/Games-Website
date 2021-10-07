@@ -124,7 +124,19 @@ main {
 .zoom:hover {
   transform: scale(1.25);
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.alerts-border {
   border: 3px solid white;
+
+  animation: blink 1s;
+  animation-iteration-count: 3;
+}
+
+@keyframes blink {
+  50% {
+    border-color: #fff;
+  }
 }
 
 #fortnitePicture {
