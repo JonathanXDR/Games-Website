@@ -2,33 +2,36 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="main.css">
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
-  <script src="./js/app.js" defer></script>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="./js/app.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 </head>
 
-<div id="app">
-  <img v-bind:src="picture" :alt="`${firstName} ${lastName}`" :class="gender" />
-  <h1>{{firstName}} {{lastName}}</h1>
-  <h3>Email: {{email}}</h3>
-  <button :class="gender" @click="getUser()">Get Random User</button>
-</div>
+<!-- <div id="app">
+    <img v-bind:src="picture" :alt="`${firstName} ${lastName}`" :class="gender" />
+    <h1>{{firstName}} {{lastName}}</h1>
+    <h3>Email: {{email}}</h3>
+    <button :class="gender" @click="getUser()">Get Random User</button>
+</div> -->
 
 <body>
-  <div id="fortnite">
-    <ul>
-      <li>
-        <img id="fortnitePicture" src="fortnite_2801186.jpg" alt="Fortnite" />
-      </li>
-      <li>
-        <img id="minecraftPicture" src="Games_Subnav_Minecraft-300x465.jpg" alt="Minecraft">
-      </li>
-    </ul>
-  </div>
+    <div id="fortnite">
+        <ul>
+            <li>
+                <img id="fortnitePicture" class="zoom arrow_box" src="fortnite_2801186.jpg" alt="Fortnite" />
+            </li>
+            <li>
+                <img id="minecraftPicture" class="zoom arrow_box" src="Games_Subnav_Minecraft-300x465.jpg" alt="Minecraft" />
+            </li>
+            <li>
+                <img id="csgoPicture" class="zoom arrow_box" src="Competitive_panorama.png" alt="CS Picture" />
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
