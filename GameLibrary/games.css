@@ -1,0 +1,19 @@
+body {
+    background: var(--colorBackground);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+:root {
+    --colorBackground: #000000;
+    --colorContainer: #151516;
+    --colorTransparent: rgba(5, 3, 3, 0.4);
+    --colorMenuBackground: rgba(29, 29, 31, 0.72);
+    --colorMenuBorder: rgba(255, 255, 255, 0.24);
+    --colorScrollbarTrack: #0f0f0f;
+    --colorScrollbarTrackBorder: #1c1c1c;
+    --colorFont: #ffffff;
+    --colorBtn: #ffffff;
+    --colorBtnReverse: #1d1d1f;
+}
