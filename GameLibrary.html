@@ -1,25 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="./js/app.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <link rel="stylesheet" href="main.css">
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
-  <script src="./js/app.js" defer></script>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
+  <body>
+    <div class="wrapper">
+      <h2>
+        <strong>All Games<span>( 4 )</span></strong>
+      </h2>
 
-<body>
-  <table id="fortnite">
-    <tr>
-      <td></td><a href="GameLibrary/Fortnite.html"><button><img id="fortnitePicture" src="fortnite_2801186.jpg" alt="Fortnite" style="height: 420px; width: 300px;"/></button></a></td>
-      <td></td><a href="GameLibrary/Minecraft.html"><button><img id="minecraftPicture" src="Games_Subnav_Minecraft-300x465.jpg" alt="Minecraft"style="height: 420px; width: 300px;"></button></a></td>
-    </tr>
-    <tr>
-      <td><a href="GameLibrary/CsGo.html"><button><img id="CsGoPicture" src="Competitive_panorama.png" alt="Fortnite" style="height: 420px; width: 300px;"/></button></a></td>
-    </tr>
-  <table>
-</body>
+      <div class="cards">
+        <figure class="card">
+          <img src="Games_Subnav_Minecraft-300x465.jpg" />
+
+          <figcaption>Minecraft</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="fortnite_2801186.jpg" />
+
+          <figcaption>Fortnite</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="christopher-farrugia-2yQtqBqzDRo-unsplash.jpg" />
+
+          <figcaption>Counter-Strike: Global Offensive</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="Competitive_panorama.png" />
+
+          <figcaption>Call of Duty: Black Ops Cold War</figcaption>
+        </figure>
+      </div>
+
+      <h2><strong>What's new?</strong></h2>
+
+      <div class="news">
+        <figure class="article">
+          <img src="https://mrreiha.keybase.pub/codepen/hover-fx/news1.jpg" />
+
+          <figcaption>
+            <h3>New Item</h3>
+
+            <p>
+              In today’s update, two heads are better than one, and three heads
+              are better than that, as the all-new Flockheart’s Gamble Arcana
+              item for Ogre Magi makes its grand debut.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure class="article">
+          <img src="https://mrreiha.keybase.pub/codepen/hover-fx/news2.png" />
+
+          <figcaption>
+            <h3>Update</h3>
+
+            <p>
+              Just in time for Lunar New Year and the Rat’s time in the cyclical
+              place of honor, the Treasure of Unbound Majesty is now available.
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </body>
 </html>
