@@ -2,34 +2,78 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="main.css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Games Website</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="./js/app.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 </head>
 
 <body>
-  <ul class="menu-bar">
-    <!-- <div class="ulContainer"> -->
-    <li class="menu">
-      <a href="GameLibrary.html" style="text-decoration: none">Game Library</a>
-    </li>
-    <!-- <li class="menu"><a href="#skills">Skills</a></li>
-        <li class="menu"><a href="#contact">Kontakt</a></li> -->
-  </ul>
-  <main>
-    <img id="img" src="christopher-farrugia-2yQtqBqzDRo-unsplash.jpg" alt="Bild mit Tastatur" />
-    <p id="startText">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-      dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-      kasd gubergren, no sea takimata
-      sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-      duo dolores
-      et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
-  </main>
+    <div class="wrapper">
+        <h2>
+            <strong>Alle Spiele<span>( 4 )</span></strong>
+        </h2>
+
+        <div class="cards">
+            <figure class="card">
+
+                <a href="/GameLibrary/HTML/Minecraft.html"><img src="/Img/Games_Subnav_Minecraft-300x465.jpg" alt="Minecraft"></a>
+
+                <figcaption>Minecraft</figcaption>
+            </figure>
+
+            <figure class="card">
+
+                <a href="/GameLibrary/HTML/Fortnite.html"><img src="/Img/fortnite_2801186.jpg" alt="Fortnite"></a>
+
+                <figcaption>Fortnite</figcaption>
+            </figure>
+
+            <figure class="card">
+                <a href="/GameLibrary/HTML/CsGo.html"><img src="/Img/guide-header-csgo-neu-720x405.jpg" alt="csgo"></a>
+
+                <figcaption>Counter-Strike: Global Offensive</figcaption>
+            </figure>
+
+            <figure class="card">
+
+                <a href="/GameLibrary/HTML/CallOfDuty_BoCw.html"><img src="/Img/call-of-duty-black-ops-cold-war-split-i100281.jpg" alt="COD CW"></a>
+
+                <figcaption>Call of Duty: Black Ops Cold War</figcaption>
+            </figure>
+        </div>
+
+        <h2><strong>Neu</strong></h2>
+
+        <div class="news">
+            <figure class="article">
+                <img src="https://mrreiha.keybase.pub/codepen/hover-fx/news1.jpg" />
+
+                <figcaption>
+                    <h3>New Item</h3>
+
+                    <p>
+                        In today’s update, two heads are better than one, and three heads are better than that, as the all-new Flockheart’s Gamble Arcana item for Ogre Magi makes its grand debut.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure class="article">
+                <img src="https://mrreiha.keybase.pub/codepen/hover-fx/news2.png" />
+
+                <figcaption>
+                    <h3>Update</h3>
+
+                    <p>
+                        Just in time for Lunar New Year and the Rat’s time in the cyclical place of honor, the Treasure of Unbound Majesty is now available.
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
 </body>
 
 </html>
